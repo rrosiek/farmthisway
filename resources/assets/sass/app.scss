@@ -1,0 +1,68 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+@import url("https://fonts.googleapis.com/css?family=Handlee");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+header {
+  // @include gradient-radial($gray, $gray-dark);
+  @include gradient-radial();
+  padding-top: 14px;
+}
+  
+footer.page {
+  border-top: 6px solid $brand-primary;
+  // @include gradient-radial($gray, $gray-dark);
+  @include gradient-radial();
+  color: #eee;
+  font-size: .8em;
+  margin-top: 30px;
+  padding: 30px 0px;
+  min-height: 240px;
+  
+  a {
+    color: #fff;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+  
+// Page elements
+  
+.well.primary {
+  background-color: $brand-primary;
+  border-color: $brand-primary;
+  opacity: .7;
+}
+  
+.text-white {
+  color: #fff;
+}
+  
+h1.huge {
+  font-size: 3em;
+}
+  
+// Forms
+  
+label.required {
+  &:after {
+    color: $brand-danger;
+    content: " *";
+    display: inline;
+    font-size: 1.1em;
+  }
+}
+  
+// Carousel
+  
+.carousel {
+  margin-top: 12px;
+  margin-bottom: 15px;
+}
