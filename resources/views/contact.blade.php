@@ -42,7 +42,9 @@
                         </div>
                     @endif
 
-                    <form action="{!! route('contact') !!}" method="post">
+                    <form method="post">
+                        {{ csrf_field() }}
+
                         <div class="form-group">
                             <label for="subject">Subject</label>
                             <input class="form-control" id="subject" name="subject" type="text" value="{{ old('subject') }}">

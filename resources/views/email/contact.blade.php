@@ -1,8 +1,8 @@
 <html>
     <body>
-        <p>Subject: {{ $subject }}</p>
-        <p>From: {{ $email }}</p>
+        <p>Subject: {{ $context['subject'] }}</p>
+        <p>From: {{ $context['email'] }}</p>
         <p>Message:</p>
-        <p>{{ $body }}</p>
+        <p>{!! $context['body'] !!}</p>
     </body>
 </html>

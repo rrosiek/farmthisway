@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Contracts\Mail\Mailer;
-use Farmthisway\Http\Requests\ContactRequest;
+use App\Mail\ContactUs;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class Contact extends Controller
 {
@@ -19,19 +20,21 @@ class Contact extends Controller
 
     /**
      * @param  \Farmthisway\Http\Requests\ContactRequest $request
-     * @param  \Illuminate\Contracts\Mail\Mailer $mail
+     * @param  \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
      */
-    public function send(ContactRequest $request, Mailer $mail)
+    public function send(Request $request)
     {
-        if ($request->name !== '')
+        if ($request->name)
             return redirect('/');
+        
+        $data = $request->validate([
+            'subject' => ['required'],
+            'email' => ['required', 'email', 'max:255'],
+            'body' => ['required'],
+        ]);
 
-        $mail->send('email.contact', $request->all(), function ($message) use ($request) {
-            $message->to('farmthisway@gmail.com')
-                ->subject('From Farmthisway Contact Page: ' . $request->subject)
-                ->replyTo($request->email, $name = null);
-        });
+        Mail::to(env('MAIL_WEBADMIN'))->send(new ContactUs($data));
 
         return redirect()->back()->with('success', 'Your message has been sent, we\'ll get back to you shortly!');
     }
