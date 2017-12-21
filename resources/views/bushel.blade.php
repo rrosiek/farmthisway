@@ -7,7 +7,7 @@
         <div class="col-md-9">
             <h1>Our Bushel</h1>
             <p>
-                Check back here to see what will be included weekly in our CSA! Please note that this is based on last years growing season and varies from year to year.
+                Please note that this is an example of what was delivered in the 2016 growing season.
             </p>
 
             <div role="tabpanel">
@@ -19,10 +19,7 @@
                         <a href="#15week" aria-controls="15week" role="tab" data-toggle="tab">15 Week</a>
                     </li>
                     <li data-toggle="tab" role="presentation">
-                        <a href="#16week" aria-controls="16week" role="tab" data-toggle="tab">16 Week</a>
-                    </li>
-                    <li data-toggle="tab" role="presentation">
-                        <a href="#22week" aria-controls="22week" role="tab" data-toggle="tab">22 Week</a>
+                        <a href="#20week" aria-controls="22week" role="tab" data-toggle="tab">20 Week</a>
                     </li>
                 </ul>
 
@@ -192,251 +189,6 @@
                     </div>
 
                     <div class="tab-pane" id="15week" role="tabpanel">
-                        <table class="table table-striped">
-                            <thead><th>Week #</th><th>Item(s)</th></thead>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>
-                                        <ul>
-                                            <li>1 1/2 flat of strawberries</li>
-                                            <li>2 heads broccoli</li>
-                                            <li>2 heads cabbage</li>
-                                            <li>9 brown eggs</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>
-                                        <ul>
-                                            <li>2 bunches of kale</li>
-                                            <li>3 heads cauliflower</li>
-                                            <li>4 heads cabbage</li>
-                                            <li>6 broccoli crowns</li>
-                                            <li>1 dozen brown eggs</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>
-                                        <ul>
-                                            <li>1 bunch of kale</li>
-                                            <li>1 head cauliflower</li>
-                                            <li>2 summer squash</li>
-                                            <li>2 zucchini</li>
-                                            <li>1 seedless watermelon</li>
-                                            <li>1 pt sweet cherries</li>
-                                            <li>1 head green leaf lettuce</li>
-                                            <li>9 brown eggs</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>
-                                        <ul>
-                                            <li>1 bunch of kale</li>
-                                            <li>1 jumbo green cabbage</li>
-                                            <li>1 jumbo zucchini</li>
-                                            <li>2 large zucchini</li>
-                                            <li>2 small zucchini</li>
-                                            <li>2 yellow squash</li>
-                                            <li>2 cucumbers</li>
-                                            <li>2 onions</li>
-                                            <li>1 garlic</li>
-                                            <li>1 head cauliflower</li>
-                                            <li>9 brown eggs</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>
-                                        <ul>
-                                            <li>2 qt green beans</li>
-                                            <li>1 oregano plant</li>
-                                            <li>2 onions</li>
-                                            <li>1 bunch of kale</li>
-                                            <li>6 green sweets</li>
-                                            <li>2 cucumbers</li>
-                                            <li>1 pt cherry tomatoes</li>
-                                            <li>4 zucchini</li>
-                                            <li>1 dozen brown eggs</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>6</td>
-                                    <td>
-                                        <ul>
-                                            <li>1 bunch of kale</li>
-                                            <li>2 dozen corn</li>
-                                            <li>1/2 pt blueberries</li>
-                                            <li>3 cucumbers</li>
-                                            <li>3 zucchini</li>
-                                            <li>1 bunch of dill</li>
-                                            <li>1 1/2 lbs beans</li>
-                                            <li>9 brown eggs</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>7</td>
-                                    <td>
-                                        <ul>
-                                            <li>1/2 dozen sweet corn</li>
-                                            <li>2 onions</li>
-                                            <li>2 green sweet peppers</li>
-                                            <li>3 cucumbers</li>
-                                            <li>1/2 pt blueberries</li>
-                                            <li>2 pt cherry tomatoes</li>
-                                            <li>3 green leaf lettuce</li>
-                                            <li>4 hungarian hot peppers</li>
-                                            <li>9 brown eggs</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>8</td>
-                                    <td>
-                                        <ul>
-                                            <li>1/2 dozen sweet corn</li>
-                                            <li>3 green sweet peppers</li>
-                                            <li>12 yellow hot peppers</li>
-                                            <li>6 green tomatoes</li>
-                                            <li>1 qt beans</li>
-                                            <li>2 pt blueberries</li>
-                                            <li>1 onion</li>
-                                            <li>1 romaine lettuce</li>
-                                            <li>2 pt cherry tomatoes</li>
-                                            <li>3 cucumbers</li>
-                                            <li>1 spring dill</li>
-                                            <li>1 dozen brown eggs</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>9</td>
-                                    <td>
-                                        <ul>
-                                            <li>8 lbs white potatoes</li>
-                                            <li>2 leeks</li>
-                                            <li>1 pt fort wayne tomato</li>
-                                            <li>1 pt heirloom mix</li>
-                                            <li>2 green sweet peppers</li>
-                                            <li>2 dozen white corn</li>
-                                            <li>9 bi-color white corn</li>
-                                            <li>2 cukes</li>
-                                            <li>1 bunch of kale</li>
-                                            <li>9 brown eggs</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>10</td>
-                                    <td>
-                                        <ul>
-                                            <li>1 bunch of kale</li>
-                                            <li>2 dozen white corn</li>
-                                            <li>2 cucumbers</li>
-                                            <li>6 yellow hot peppers</li>
-                                            <li>2 green sweet peppers</li>
-                                            <li>1 pt blueberries</li>
-                                            <li>2 onions</li>
-                                            <li>4 round tomatoes</li>
-                                            <li>2 leaf lettuce</li>
-                                            <li>1 eggplant</li>
-                                            <li>1 dozen brown eggs</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>11</td>
-                                    <td>
-                                        <ul>
-                                            <li>2 red onions</li>
-                                            <li>1 red cabbage</li>
-                                            <li>7 lbs red potatoes</li>
-                                            <li>8 red tomatoes</li>
-                                            <li>1 red leaf lettuce</li>
-                                            <li>1 qt heirloom tomatoes</li>
-                                            <li>6 red hungarian hots</li>
-                                            <li>1 red mum</li>
-                                            <li>9 brown eggs</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>12</td>
-                                    <td>
-                                        <ul>
-                                            <li>2 spaghetti squash</li>
-                                            <li>3 onions</li>
-                                            <li>3 broccoli</li>
-                                            <li>1 8qt tomatoes</li>
-                                            <li>1 yellow mum</li>
-                                            <li>12 hungarian peppers</li>
-                                            <li>2 pt yellow pear tomatoes</li>
-                                            <li>8 bi-color corn</li>
-                                            <li>1 dozen brown eggs</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>13</td>
-                                    <td>
-                                        <ul>
-                                            <li>4 green sweets</li>
-                                            <li>1 acorn squash</li>
-                                            <li>1 qt concord grapes</li>
-                                            <li>1/2 8qt round tomatoes</li>
-                                            <li>1/2 8qt roma tomatoes</li>
-                                            <li>4 green tomatoes</li>
-                                            <li>4 broccoli crowns</li>
-                                            <li>2 leaf lettuce</li>
-                                            <li>1 qt heirloom tomatoes</li>
-                                            <li>9 brown eggs</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>14</td>
-                                    <td>
-                                        <ul>
-                                            <li>1/2 bag green apples, 20z</li>
-                                            <li>1/2 bag mac apples</li>
-                                            <li>1 4qt concord grapes</li>
-                                            <li>2 spaghetti squash</li>
-                                            <li>2 ears sweet corn</li>
-                                            <li>1 pt heirloom tomatoes</li>
-                                            <li>1 head cauliflower</li>
-                                            <li>1 4qt round tomatoes</li>
-                                            <li>1 dozen brown eggs</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>15</td>
-                                    <td>
-                                        <ul>
-                                            <li>2 heads cauliflower</li>
-                                            <li>1 bag cort/mac apples</li>
-                                            <li>1 bag of "heat" peppers</li>
-                                            <li>2 qt concord grapes</li>
-                                            <li>4 beefstake tomatoes</li>
-                                            <li>6 sweet green peppers</li>
-                                            <li>3 heads broccoli</li>
-                                            <li>9 brown eggs</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-
-                    <div class="tab-pane" id="16week" role="tabpanel">
                         <table class="table table-striped">
                             <thead><th>Week #</th><th>Item(s)</th></thead>
                             <tbody>
@@ -671,27 +423,11 @@
                                         </ul>
                                     </td>
                                 </tr>
-                                <tr>
-                                    <td>16</td>
-                                    <td>
-                                        <ul>
-                                            <li>1 head cauliflower</li>
-                                            <li>3 cortland apples</li>
-                                            <li>3 mac apples</li>
-                                            <li>1 bag of "heat" peppers</li>
-                                            <li>2 qt concord grapes</li>
-                                            <li>2 beefstake tomatoes</li>
-                                            <li>2 sweet green peppers</li>
-                                            <li>2 heads broccoli</li>
-                                            <li>1/2 dozen brown eggs</li>
-                                        </ul>
-                                    </td>
-                                </tr>
                             </tbody>
                         </table>
                     </div>
 
-                    <div class="tab-pane" id="22week" role="tabpanel">
+                    <div class="tab-pane" id="20week" role="tabpanel">
                         <table class="table table-striped">
                             <thead><th>Week #</th><th>Item(s)</th></thead>
                             <tbody>
@@ -1000,66 +736,6 @@
                                             <li>1/2 dozen hungarian hots</li>
                                             <li>1 jumbo mum</li>
                                             <li>1/2 dozen brown eggs</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>21</td>
-                                    <td>
-                                        <ul>
-                                            <li>1 bag cortland apples</li>
-                                            <li>1 bag 20oz apples</li>
-                                            <li>1 bag fortune apples</li>
-                                            <li>1 cauliflower</li>
-                                            <li>6 green sweet peppers</li>
-                                            <li>1 pt grapes</li>
-                                            <li>12 hungarian hots</li>
-                                            <li>1 onion</li>
-                                            <li>2 spaghetti squash</li>
-                                            <li>1 dozen brown eggs</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>22</td>
-                                    <td>
-                                        <ul>
-                                            <li>4 heads broccoli</li>
-                                            <li>2 heads cauliflower</li>
-                                            <li>2 acorn squash</li>
-                                            <li>2 onions</li>
-                                            <li>6 green sweet peppers</li>
-                                            <li>1 bag fortune apples</li>
-                                            <li>2 qt concord grapes</li>
-                                            <li>1 mum</li>
-                                            <li>1 small pumpkin</li>
-                                            <li>1 dozen eggs</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>23</td>
-                                    <td>
-                                        <ul>
-                                            <li>10 butternut squash</li>
-                                            <li>1 bag cortland apples</li>
-                                            <li>1 small pumpkin</li>
-                                            <li>2 spaghetti squash</li>
-                                            <li>1 bag green sweet choppers</li>
-                                            <li>1 dozen brown eggs</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>24</td>
-                                    <td>
-                                        <ul>
-                                            <li>6 butternut squash</li>
-                                            <li>1 soup chicken</li>
-                                            <li>4-6 broccoli crowns</li>
-                                            <li>1-2 cauliflower</li>
-                                            <li>1 large pine wreath</li>
-                                            <li>1 dozen brown eggs</li>
                                         </ul>
                                     </td>
                                 </tr>
