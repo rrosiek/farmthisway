@@ -12,7 +12,7 @@
         <div class="col-md-4">
             <h2>15 Week CSA</h2>
             <h3><span class="label label-success">{{ $products['15']['priceFormatted'] }}</span></h3>
-            <p>1/4 share, June 7th through October 13th, pickup Saturdays @ Hamburg Market</p>
+            <p>1/4 share, July 7th through October 13th, pickup Saturdays @ Hamburg Market</p>
         </div>
         <div class="col-md-4">
             <h2>20 Week CSA</h2>
