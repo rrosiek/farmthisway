@@ -4,20 +4,10 @@
 
 <div class="container">
     <div class="row text-center">
-        <div class="col-md-4">
+        <div class="col-md-4 col-md-offset-4">
             <h2>10 Week CSA</h2>
             <h3><span class="label label-success">{{ $products['10']['priceFormatted'] }}</span></h3>
-            <p>June 6th through October 10th, pickup every other Wednesday @ the farm</p>
-        </div>
-        <div class="col-md-4">
-            <h2>15 Week CSA</h2>
-            <h3><span class="label label-success">{{ $products['15']['priceFormatted'] }}</span></h3>
-            <p>1/4 share, July 7th through October 13th, pickup Saturdays @ Hamburg Market</p>
-        </div>
-        <div class="col-md-4">
-            <h2>20 Week CSA</h2>
-            <h3><span class="label label-success">{{ $products['20']['priceFormatted'] }}</span></h3>
-            <p>May 30th through October 10th, pickup every Wednesday @ the farm</p>
+            <p>July 27th through September 28th, pickup Saturdays @ Hamburg Market</p>
         </div>
     </div>
     <div class="row text-center">

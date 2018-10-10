@@ -8,33 +8,17 @@
             <h1>Our CSA</h1>
             <hr>
             <p>
-                Purchase a <strong>$99.00</strong> Purchase $99.00 membership which entitles you to purchase a 10, 15, or 20 week program for 2018.  In the event we reach our 2018 capacity, your membership fee will automatically apply towards your spot on the 2019 hold list.
+                Purchase a <strong>$99.00</strong> Purchase $99.00 membership which entitles you to purchase a 10 week program for 2019.  In the event we reach our 2019 capacity, your membership fee will automatically apply towards your spot on the 2020 hold list.
             </p>
             <p>
-                We have restructured our Farmthisway programs.  We have eliminated our delivered program.  The hours spent away from the farm are too valuable.  We will continue to have farm pickup for all our programs.  The following programs are available for 2018.
+                We have restructured our Farmthisway program to a single 10 week share available for pickup at the Hamburg Farmer's market.
             </p>
             <p>
                 <h3>10 Week Program <span class="label label-success">{{ $products['10']['priceFormatted'] }}</span></h3>
                 <ul>
-                    <li>Runs from June 6th through October 10th</li>
-                    <li>Full size distribution</li>
-                    <li>Pick up every other Wednesday at the farm only</li>
-                </ul>
-            </p>
-            <p>
-                <h3>15 Week Program <span class="label label-success">{{ $products['15']['priceFormatted'] }}</span></h3>
-                <ul>
-                    <li>Runs from July 7th through October 13th</li>
+                    <li>Runs from July 27th through September 28th</li>
                     <li>1/4 size distribution</li>
                     <li>Pickup Saturdays every week at the farm or Hamburg Farmers Market</li>
-                </ul>
-            </p>
-            <p>
-                <h3>20 Week Program <span class="label label-success">{{ $products['20']['priceFormatted'] }}</span></h3>
-                <ul>
-                    <li>Runs from May 30th through October 10th</li>
-                    <li>Full size distribution</li>
-                    <li>Pick up every Wednesday at the farm only</li>
                 </ul>
             </p>
 

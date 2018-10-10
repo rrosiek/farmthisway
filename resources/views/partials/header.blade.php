@@ -8,7 +8,6 @@
                 <a href="https://www.youtube.com/user/farmthisway/videos" target="_blank"><img src="/images/youtube-icon.png"></a>
                 <a href="https://www.facebook.com/Farmthisway" target="_blank"><img src="/images/facebook-icon.png"></a>
                 <a href="https://pinterest.com/search/people/?q=farmthisway" target="_blank"><img src="/images/pinterest-icon.png"></a>
-                {{--<a href="https://vine.co/u/1110326482653589504" target="_blank"><img src="/images/twitter-icon.png"></a>--}}
             </div>
         </div>
     </div>

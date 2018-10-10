@@ -18,12 +18,6 @@ class ProductFactory
             case '10':
                 return new TenWeek();
                 break;
-            case '15':
-                return new FifteenWeek();
-                break;
-            case '20':
-                return new TwentyWeek();
-                break;
             default:
                 throw new InvalidArgumentException($week . ' is not a valid product type.');
         }
@@ -37,13 +31,9 @@ class ProductFactory
     public static function all()
     {
         $ten = new TenWeek();
-        $fifteen = new FifteenWeek();
-        $twenty = new TwentyWeek();
 
         return [
             $ten->getId() => $ten->toArray(),
-            $fifteen->getId() => $fifteen->toArray(),
-            $twenty->getId() => $twenty->toArray(),
         ];
     }
 }

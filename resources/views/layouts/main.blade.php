@@ -8,7 +8,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <meta name="stripe-key" content="{{ env('STRIPE_KEY') }}">
 
-        <title>Farmthisway :: {{ $title or 'Welcome' }}</title>
+        <title>Farmthisway :: {{ $title ?? 'Welcome' }}</title>
 
         <link href="/css/app.css" rel="stylesheet">
     </head>
