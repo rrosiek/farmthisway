@@ -8,8 +8,6 @@ Route::get('csa/payment', ['as' => 'csa.payment', 'uses' => 'Payment@show']);
 Route::post('csa/payment', ['as' => 'csa.payment', 'uses' => 'Payment@processPayment']);
 Route::get('csa/thankyou', ['as' => 'csa.thankyou', 'uses' => 'Payment@thankyou']);
 
-Route::get('ourbushel', ['as' => 'bushel', 'uses' => 'Page@bushel']);
-
 Route::get('contact', ['as' => 'contact', 'uses' => 'Contact@show']);
 Route::post('contact', ['as' => 'contact', 'uses' => 'Contact@send']);
 

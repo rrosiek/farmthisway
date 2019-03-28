@@ -35,16 +35,6 @@ class Page extends Controller
     }
 
     /**
-     * Show bushel page
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function bushel()
-    {
-        return view('bushel', ['title' => 'Our Bushel']);
-    }
-
-    /**
      * Show privacy page
      *
      * @return \Illuminate\Http\Response

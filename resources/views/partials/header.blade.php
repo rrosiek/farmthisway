@@ -31,7 +31,6 @@
                 <ul class="nav navbar-nav">
                     <li><a href="{!! route('home') !!}">home</a></li>
                     <li><a href="{!! route('csa.join') !!}">csa pricing</a></li>
-                    <li><a href="{!! route('bushel') !!}">our bushel</a></li>
                     <li><a href="{!! route('contact') !!}">contact</a></li>
                 </ul>
             </div>
