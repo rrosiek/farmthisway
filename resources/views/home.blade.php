@@ -80,7 +80,7 @@
                     </p>
                     <h2>Pick Up</h2>
                     <p>
-                        Pick up is at the farm in Brant between 9:00 AM and 6:00 PM. Additional pick up can be done on Wednesdays at the Blasdell market location, however you must notify Farm This Way. If you are unable to pick up a week's produce, you have some options. Someone else can pick up your share, or we will donate it to our local food pantry in your name.
+                        Pick up is at the farm on Saturdays at any time. Additional pick up can be done on Saturdays at the Hamburg Farmer's Market between 8am and 1pm.  If you are unable to pick up a week's produce, you have some options. Someone else can pick up your share, or we will donate it to our local food pantry in your name.
                     </p>
                     <p>
                         <a data-toggle="modal" data-target="#serviceModal" href="#">Click here</a> to see our service area in Western New York.

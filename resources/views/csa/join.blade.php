@@ -18,7 +18,7 @@
                 <ul>
                     <li>Runs from July 27th through September 28th</li>
                     <li>1/4 size distribution</li>
-                    <li>Pickup Saturdays every week at the farm or Hamburg Farmers Market</li>
+                    <li>Pickups are Saturdays at the farm or at the Hamburg Farmers Market between 8am and 1pm</li>
                 </ul>
             </p>
 
