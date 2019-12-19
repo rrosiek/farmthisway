@@ -61,7 +61,7 @@
                 </div>
 
                 <hr>
-        
+
                 <div class="form-group">
                     <label class="col-sm-3 control-label" for="email">E-Mail Address</label>
                     <div class="col-sm-6">
@@ -93,10 +93,6 @@
 
             </form>
 
-        </div>
-
-        <div class="col-md-3">
-            @include('partials.sidebar')
         </div>
     </div>
 </div>

@@ -4,7 +4,7 @@ namespace App\Products;
 
 class TenWeek extends Product
 {
-    const price = 25000;
+    const price = 27500;
 
     /**
      * @var integer
