@@ -22,7 +22,7 @@
         <ul>
             <li>Runs from July 25th through September 26th</li>
             <li>1/4 size distribution</li>
-            <li>Pickups are Saturdays at the farm or at the Hamburg Farmers Market between 8am and 1pm or at the farm in Brant</li>
+            <li>Pickups are Saturdays at the farm in Brant or at the Hamburg Farmers Market between 8am and 1pm</li>
         </ul>
     </p>
 
