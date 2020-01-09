@@ -9,7 +9,7 @@
         Ths Farmthisway CSA program begins Saturday July 25th, 2020 and runs through Saturday 26th, 2020 with a bonus week (for early subscribers) on October 3rd, 2020.
     </p>
     <p>
-        Total cost is <strong>$275 for 10 weeks</strong>.  Earn a bonus week by subscribing before January 15th, 2020.
+        Total cost is <strong>$275 for 10 weeks</strong>.  Earn a bonus week by subscribing before January 31st, 2020.
     </p>
     <p>
         This will be our 9th year of offering produce directly from our farm to our members.  Our programs have changed a lot over the years so we have decided to rebuild our website to offer a history of our programs.  Please be patient as we rebuild our website.

@@ -11,6 +11,7 @@ buyCsa.purchaseBtn = buyCsa.frm.find('button[type="submit"]');
 buyCsa.firstName = buyCsa.frm.find('#firstName');
 buyCsa.lastName = buyCsa.frm.find('#lastName');
 buyCsa.email = buyCsa.frm.find('#email');
+buyCsa.mailingAddress = buyCsa.frm.find('#mailingAddress');
 buyCsa.phone = buyCsa.frm.find('#phone');
 buyCsa.cardValid = false;
 buyCsa.errorTxt = '';
@@ -59,6 +60,13 @@ buyCsa.frm.on('submit', event => {
         return;
     }
 
+    if (!buyCsa.mailingAddress.val()) {
+        buyCsa.paymentErrors.text('You must enter a mailing address.');
+        buyCsa.paymentErrors.removeClass('hidden');
+
+        return;
+    }
+
     if (!phoneValidate.test(buyCsa.phone.val())) {
         buyCsa.paymentErrors.text('You must enter a valid phone number (i.e. 716-555-1234)');
         buyCsa.paymentErrors.removeClass('hidden');
@@ -90,6 +98,7 @@ buyCsa.frm.on('submit', event => {
                     email: buyCsa.email.val(),
                     lastFour: result.token.card.last4,
                     name: buyCsa.firstName.val() + ' ' + buyCsa.lastName.val(),
+                    mailing_address: buyCsa.mailingAddress.val(),
                     phone: buyCsa.phone.val(),
                     token: result.token.id,
                 },

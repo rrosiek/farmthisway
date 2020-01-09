@@ -69,6 +69,12 @@
                     </div>
                 </div>
                 <div class="form-group">
+                    <label class="col-sm-3 control-label" for="mailingAddress">Mailing Address</label>
+                    <div class="col-sm-6">
+                        <input class="form-control" id="mailingAddress" name="mailingAddress" type="mailingAddress" value="{{ old('mailingAddress') }}">
+                    </div>
+                </div>
+                <div class="form-group">
                     <label class="col-sm-3 control-label" for="phone">Phone Number</label>
                     <div class="col-sm-6">
                         <input class="form-control" id="phone" name="phone" size="2" type="text" value="{{ old('phone') }}">

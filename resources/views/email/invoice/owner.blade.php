@@ -12,6 +12,7 @@
         <br><br>
         Total: ${{ number_format($order->amount / 100, 2, '.', ',')}}<br><br>
         Email: {{ $order->email }}<br>
+        Mailing Address: {{ $order->mailing_address }}<br>
         Phone Number: {{ $order->phone }}<br><br>
         Farmthisway Website
     </body>

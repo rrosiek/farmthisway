@@ -14,6 +14,7 @@ class Order extends Model
         'amount',
         'member_fee_paid',
         'email',
+        'mailing_address',
         'phone',
         'name',
         'cc_brand',

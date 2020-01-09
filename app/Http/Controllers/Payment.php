@@ -67,6 +67,16 @@ class Payment extends Controller
      * @return \Illuminate\Http\Response
      */
     public function processPayment(Request $request) {
+        $validatedData = $request->validate([
+            'brand' => ['required', 'max:255'],
+            'email' => ['required', 'email'],
+            'mailing_address' => ['required', 'max:255'],
+            'lastFour' => ['required', 'numeric'],
+            'name' => ['required', 'max:255'],
+            'phone' => ['required', 'max:255'],
+            'token' => ['required']
+        ]);
+
         $product = ProductFactory::make(session('product'));
 
         Stripe::setApiKey(env('STRIPE_SECRET'));
@@ -74,25 +84,26 @@ class Payment extends Controller
             'amount' => session('billTotal'),
             'currency' => 'usd',
             'description' => 'Farmthisway CSA ' . $product->getLabel(),
-            'source' => $request->token,
+            'source' => $validatedData['token'],
         ]);
 
         $order = Order::create([
             'product' => $product->getLabel(),
             'amount' => session('billTotal'),
             'member_fee_paid' => session('membership'),
-            'email' => $request->email,
-            'phone' => $request->phone,
-            'name' => $request->name,
-            'cc_brand' => $request->brand,
-            'cc_lastfour' => $request->lastFour,
-            'token' => $request->token,
+            'email' => $validatedData['email'],
+            'mailing_address' => $validatedData['mailing_address'],
+            'phone' => $validatedData['phone'],
+            'name' => $validatedData['name'],
+            'cc_brand' => $validatedData['brand'],
+            'cc_lastfour' => $validatedData['lastFour'],
+            'token' => $validatedData['token'],
         ]);
 
         session(['order' => $order]);
 
         try {
-            Mail::to($request->email)->send(new CsaCustomerInvoiced($order));
+            Mail::to($validatedData['email'])->send(new CsaCustomerInvoiced($order));
             Mail::to(env('MAIL_WEBADMIN'))->send(new CsaPurchased($order));
         } catch(\Exception $e) {
             Log::error('Could not send purchase confirmation emails: ' . $e->getMessage());

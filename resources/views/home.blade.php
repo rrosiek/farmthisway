@@ -8,9 +8,9 @@
             <h2>10 Week CSA</h2>
             <h3><span class="label label-success">{{ $products['10']['priceFormatted'] }}</span></h3>
             <h3>July 25th, 2020 through September 26th, 2020</h3>
-            <h3>Pickup Saturdays @ Hamburg Market</h3>
+            <h3>Pickup Saturdays @ Hamburg Market or at the <a href="/contact">farm in Brant</a>.</h3>
             <br>
-            <h4><strong>Bonus Week!</strong> Sign up before January 15th, 2020 and receieve the week of October 3rd 2020 for free!</h4>
+            <h4><strong>Bonus Week!</strong> Sign up before January 31st, 2020 and receieve the week of October 3rd 2020 for free!</h4>
             <br>
         </div>
     </div>
