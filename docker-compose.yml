@@ -3,8 +3,9 @@ version: '3.7'
 services:
 
   app:
-    build: .
-    image: farmthisway
+    build:
+      context: .
+      dockerfile: Dockerfile-app
     restart: unless-stopped
     tty: true
     working_dir: /var/www
@@ -15,6 +16,19 @@ services:
     volumes:
       - ./:/var/www
       - ./php/local.ini:/usr/local/etc/php/conf.d/local.ini
+
+  worker:
+    build:
+      context: .
+      dockerfile: Dockerfile-worker
+    restart: unless-stopped
+    working_dir: /app
+    depends_on:
+      - db
+    volumes:
+      - ./:/app
+      - ./supervisor/supervisord.conf:/etc/supervisor/supervisord.conf
+      - ./supervisor/conf.d/:/etc/supervisor/conf.d/
 
   web:
     image: nginx:alpine
