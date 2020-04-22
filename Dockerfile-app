@@ -16,12 +16,9 @@ RUN groupadd -g 1000 www && \
     useradd -u 1000 -ms /bin/bash -g www www
 
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
-
-COPY . /var/www
 COPY --chown=www:www . /var/www
 
 USER www
-
 EXPOSE 9000
 
 CMD ["php-fpm"]

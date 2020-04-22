@@ -6,7 +6,8 @@ RUN apt-get update && apt-get install -y \
     supervisor vim unzip git curl && \
     apt-get autoremove -y && \
     apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
+    rm -rf /var/lib/apt/lists/* && \
+    mkdir /app
 
 RUN docker-php-ext-install gd zip exif pcntl
 
@@ -16,10 +17,6 @@ RUN groupadd -g 1000 worker && \
     useradd -u 1000 -ms /bin/bash -g worker worker && \
     chown worker:worker /var/log/supervisor
 
-WORKDIR /app
-COPY . /app
 COPY --chown=worker:worker . /app
 
 ENTRYPOINT ["/usr/bin/supervisord", "-n", "-c",  "/etc/supervisor/supervisord.conf"]
-
-WORKDIR /etc/supervisor/conf.d/
