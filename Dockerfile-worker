@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y \
     rm -rf /var/lib/apt/lists/* && \
     mkdir /app
 
-RUN docker-php-ext-install gd zip exif pcntl
+RUN docker-php-ext-install gd zip exif pcntl pdo_mysql
 
 WORKDIR /var/log/supervisor
 
