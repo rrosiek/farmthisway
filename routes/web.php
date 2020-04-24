@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
+
 Route::redirect('csa', 'csa/join', 301);
 
 Route::get('csa/join', ['as' => 'csa.join', 'uses' => 'Page@csaJoin']);
