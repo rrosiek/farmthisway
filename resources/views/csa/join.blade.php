@@ -28,6 +28,8 @@
 
     <hr>
 
+    <h4 class="text-center">CSA purchases are closed for the season.</h4>
+    {{--
     <form method="post">
         {{ csrf_field() }}
 
@@ -82,6 +84,7 @@
         </div>
 
     </form>
+    --}}
 </div>
 
 @stop

@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install -y \
     \
     docker-php-ext-install gd zip exif pcntl pdo_mysql && \
     \
-    \RUN groupadd -g 1000 www && \
+    groupadd -g 1000 www && \
     useradd -u 1000 -ms /bin/bash -g www www && \
     \
     if [ $app_env = "production" ]; then \
