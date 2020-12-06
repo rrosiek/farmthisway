@@ -8,7 +8,7 @@
             <h2>10 Week CSA</h2>
             <h3><span class="label label-success">{{ $products['10']['priceFormatted'] }}</span></h3>
             <h3>July 17th, 2021 through September 18th, 2021</h3>
-            <h3>Pickup Saturdays @ Hamburg Market or at the <a href="/contact">farm in Brant</a>.</h3>
+            <h3>Pickup Saturdays @ at the <a href="/contact">farm in Brant</a>.</h3>
         </div>
     </div>
     <div class="row text-center">
