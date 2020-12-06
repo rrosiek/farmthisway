@@ -6,21 +6,21 @@
     <h1>Our CSA</h1>
     <hr>
     <p>
-        Ths Farmthisway CSA program begins Saturday July 25th, 2020 and runs through Saturday 26th, 2020 with a bonus week (for early subscribers) on October 3rd, 2020.
+        Ths Farmthisway CSA program begins Saturday July 17th, 2021 and runs through Saturday 18th, 2021 with a bonus week (for early subscribers) on September 25th, 2021.
     </p>
     <p>
-        Total cost is <strong>$275 for 10 weeks</strong>.  Earn a bonus week by subscribing before January 31st, 2020.
+        Total cost is <strong>$300 for 10 weeks</strong>.  Earn a bonus week by subscribing before December 1st, 2020.
     </p>
     <p>
-        This will be our 9th year of offering produce directly from our farm to our members.  Our programs have changed a lot over the years so we have decided to rebuild our website to offer a history of our programs.  Please be patient as we rebuild our website.
+        This will be our 10th year of offering produce directly from our farm to our members.  Our programs have changed a lot over the years so we have decided to rebuild our website to offer a history of our programs.  Please be patient as we rebuild our website.
     </p>
     <p>
-        Purchase a <strong>$99.00</strong> Purchase $99.00 membership which entitles you to purchase a 10 week program for 2020.  In the event we reach our 2020 capacity, your membership fee will automatically apply towards your spot on the 2021 hold list.
+        Purchase a <strong>$99.00</strong> Purchase $99.00 membership which entitles you to purchase a 10 week program for 2020.  In the event we reach our 2021 capacity, your membership fee will automatically apply towards your spot on the 2022 hold list.
     </p>
     <p>
         <h3>10 Week Program <span class="label label-success">{{ $products['10']['priceFormatted'] }}</span></h3>
         <ul>
-            <li>Runs from July 25th through September 26th</li>
+            <li>Runs from July 17th through September 18th</li>
             <li>1/4 size distribution</li>
             <li>Pickups are Saturdays at the farm in Brant or at the Hamburg Farmers Market between 8am and 1pm</li>
         </ul>
@@ -28,8 +28,6 @@
 
     <hr>
 
-    <h4 class="text-center">CSA purchases are closed for the season.</h4>
-    {{--
     <form method="post">
         {{ csrf_field() }}
 
@@ -84,7 +82,6 @@
         </div>
 
     </form>
-    --}}
 </div>
 
 @stop
